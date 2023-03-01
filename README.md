@@ -40,6 +40,15 @@ plugins: [
 ]  
 ```
 
+Updating the New Relic JS Snippet
+---------------------------------
+As new browser agents become available, it is best to update this code to use the most recent snippets.
+
+- [New Relic Browser Agent Release Notes](https://docs.newrelic.com/docs/release-notes/new-relic-browser-release-notes/browser-agent-release-notes/)
+- [Update your copy/paste installation](https://docs.newrelic.com/docs/browser/new-relic-browser/installation/update-browser-agent/#upgrading-copy-paste)
+- [Retrieving snippet from NR UI](https://docs.newrelic.com/docs/browser/new-relic-browser/installation/update-browser-agent/#snippet)
+
+
 This plugin adds the script for New Relic "Pro + SPA" instrumentation. If you have "Pro" configured under Browser =>
 "Application settings", the SPA data will be collected, but dropped by New Relic during ingestion. SPA data will be
 ready to be ingested when and if you switch to "Pro + SPA" instrumentation. The plugin option values can be found at the

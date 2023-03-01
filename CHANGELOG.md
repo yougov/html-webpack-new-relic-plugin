@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [4.2.0] - 2023-03-01
+### Changed
+- Updated New Relic JS snippet to [v1226](https://docs.newrelic.com/docs/release-notes/new-relic-browser-release-notes/browser-agent-release-notes/browser-agent-v1226/).
+
 ## [4.1.0] - 2021-06-14
 ### Changed
 - Updated New Relic JS snippet to [v1209](https://docs.newrelic.com/docs/release-notes/new-relic-browser-release-notes/browser-agent-release-notes/browser-agent-v1209/).
