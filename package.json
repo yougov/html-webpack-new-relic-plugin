@@ -21,7 +21,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/victorrodrigues/html-webpack-new-relic-plugin"
+    "url": "git+https://github.com/yougov/html-webpack-new-relic-plugin"
   },
   "keywords": [
     "webpack",
@@ -32,9 +32,9 @@
   "author": "Victor Rodrigues <eu@victor.sx>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/victorrodrigues/html-webpack-new-relic-plugin/issues"
+    "url": "https://github.com/yougov/html-webpack-new-relic-plugin/issues"
   },
-  "homepage": "https://github.com/victorrodrigues/html-webpack-new-relic-plugin#readme",
+  "homepage": "https://github.com/yougov/html-webpack-new-relic-plugin#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-eslint": "^8.2.1",
