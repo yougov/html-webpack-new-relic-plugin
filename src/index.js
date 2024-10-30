@@ -15,7 +15,7 @@ class HtmlWebpackNewRelicPlugin {
     );
     // New Relic Pro+SPA snippet
     this.newrelicstring = `
-;window.NREUM||(NREUM={});NREUM.init={privacy:{cookies_enabled:true},ajax:{deny_list:["bam-cell.nr-data.net"]}};
+;window.NREUM||(NREUM={});NREUM.init={session_replay:{enabled:true,block_selector:'',mask_text_selector:'*',sampling_rate:100.0,error_sampling_rate:100.0,mask_all_inputs:true,collect_fonts:true,inline_images:false,inline_stylesheet:true,mask_input_options:{color:true,date:true,datetime_local:true,email:true,month:true,number:true,range:true,search:true,tel:true,text:true,time:true,url:true,week:true,select:true,textarea:true,}},privacy:{cookies_enabled:true}};
 ;NREUM.loader_config={accountID:"${this.options.accountID}",trustKey:"${this.options.trustKey}",agentID:"${this.options.agentID}",licenseKey:"${this.options.licenseKey}",applicationID:"${this.options.applicationID}"};
 ;NREUM.info={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",licenseKey:"${this.options.licenseKey}",applicationID:"${this.options.applicationID}",sa:1};
 ;/*! For license information please see nr-loader-spa-1.269.0.min.js.LICENSE.txt */
